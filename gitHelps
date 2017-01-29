@@ -1,0 +1,13 @@
+Configurações iniciais
+ git config --global user.name "Ed Cesar"
+ git config --global user.email "edcesar@edcesar.com"
+ git config --global color.ui true
+
+
+ git init  -> Cria um novo repositorio git
+ git add . -> Adiciona todos os arquivos
+ git add arquivo.php -> Adiciona apenas o arquivo especificado
+
+
+
+
