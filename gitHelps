@@ -12,7 +12,8 @@ Configurações iniciais
 
  git commit -m "comit inicial"
  git log
- 
+ git commit -a -m "Descricão" -> Aciona e comita em apenas um passo
+
 
 
 
