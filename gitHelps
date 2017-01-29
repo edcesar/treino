@@ -8,6 +8,12 @@ Configurações iniciais
  git add . -> Adiciona todos os arquivos
  git add arquivo.php -> Adiciona apenas o arquivo especificado
 
+ git status
+
+ git commit -m "comit inicial"
+ git log
+
+
 
 
 
