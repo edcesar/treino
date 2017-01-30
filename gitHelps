@@ -37,6 +37,8 @@ Configurações iniciais
 
  git branch -D nome-do-branch -> para deletar um branch (Após uma funcionalidade ser desenvolvida e o merge realizado, você poderá optar por remover o branch)
 
+ git push origin :nome-do-branch -> Para deletar um branch remoto
+
 ssh-keygen para iniciar o processo de criação de chave publica (Só dando enter, serve)
 cat /home/vagrant/.ssh/id_rsa.pub para visualizar a chave gerada. Copiar e colar no gitHub
 (Por algum motivo não funcionou, ainda ficou pedindo a senha)
