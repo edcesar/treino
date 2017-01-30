@@ -27,6 +27,9 @@ Configurações iniciais
 
 
  git reset HEAD~1 -> Volta um commit
+ git reset HEAD~1 --soft -> Volta o ultimo commit, deixando o arquivo na stage area 2
+ git reset HEAD~1 --hard -> Desfaz todas as alteracões do ultimo commit
+ 
 
 
 
