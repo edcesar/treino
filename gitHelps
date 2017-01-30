@@ -45,9 +45,11 @@ cat /home/vagrant/.ssh/id_rsa.pub para visualizar a chave gerada. Copiar e colar
 
 git config --global credential.helper cache -> para não solicitar mais a senha (Funciona mesmo sem o ssh-keygen)
 
+git tag 1.0.1 -> Aara adicionar uma tag, neste caso foi a 1.0.1
+git push origin master --tags -> Para publicar as tags
 
-
-
+git tag -d 0.1.0  (removendo tag localmente)
+git push origin :refs/tags/0.1.0 (removendo tag no repositório remoto)
 
 
 
