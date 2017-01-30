@@ -11,6 +11,11 @@
     public function getTeste()
     {
         return $this->teste;
+    
+    }
+    public function setTeste($teste)
+    {
+        $this->teste = $teste;
     }
 
  }
