@@ -12,8 +12,20 @@ Configurações iniciais
 
  git commit -m "comit inicial"
  git log
- git commit -a -m "Descricão" -> Aciona e comita em apenas um passo
- 
+ git commit -a -m "Descricão" -> Aciona e commita em apenas um passo
+
+ git log -p     -> Mostra quais foram todas as alterações feitas
+ git log -p 2   -> Mostra quais foram as ultimas duas alterações
+ git log --stat -> Tráa um resumo estatistico das alterações feitas
+ git log --pretty=oneline -> Traz um resumo de todos os commites, um por linha
+ git log --pretty=format:"%h - %an, %ar : %s" -> Traz um resumo dos commit, mostrando a quanto tempo foram feitos
+ git log --since=2.days -> Traz os logs dos ultimos dois dias
+
+ Ignorar arquivos - > Criar um arquivo com nome de .gitignore e colocar o nome dos arquivos, um por linha.
+
+
+
+
 
 
 
