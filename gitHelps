@@ -29,7 +29,24 @@ Configurações iniciais
  git reset HEAD~1 -> Volta um commit
  git reset HEAD~1 --soft -> Volta o ultimo commit, deixando o arquivo na stage area 2
  git reset HEAD~1 --hard -> Desfaz todas as alteracões do ultimo commit
+ git brach -b nomeDoBranch -> Para criar um branch
+ git checkout nomeDaBranch -> Para altera de branch
+
+ git merge nomeDoBranch -> para fazer merge com algum branch (importante: Fica log do merge no git log)
+ git rebase nomeDoBranch -> faz um merge com o branch especificado, ordenando pela data de criacao dos commits (importante: no git log, fica os logs dos commits, mas não especifica de qual branch veio, ou que veio de um merge)
+
+ git branch -D nome-do-branch -> para deletar um branch (Após uma funcionalidade ser desenvolvida e o merge realizado, você poderá optar por remover o branch)
+
+ssh-keygen para iniciar o processo de criação de chave publica (Só dando enter, serve)
+cat /home/vagrant/.ssh/id_rsa.pub para visualizar a chave gerada. Copiar e colar no gitHub
+(Por algum motivo não funcionou, ainda ficou pedindo a senha)
+
+git config --global credential.helper cache -> para não solicitar mais a senha (Funciona mesmo sem o ssh-keygen)
  
+
+
+
+
 
 
 
