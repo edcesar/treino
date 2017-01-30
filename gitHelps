@@ -39,7 +39,9 @@ Configurações iniciais
 
 ssh-keygen para iniciar o processo de criação de chave publica (Só dando enter, serve)
 cat /home/vagrant/.ssh/id_rsa.pub para visualizar a chave gerada. Copiar e colar no gitHub
-git config --global credential.helper cache -> para não solicitar mais a senha
+(Por algum motivo não funcionou, ainda ficou pedindo a senha)
+
+git config --global credential.helper cache -> para não solicitar mais a senha (Funciona mesmo sem o ssh-keygen)
 
 
 
