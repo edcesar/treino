@@ -43,6 +43,11 @@ cat /home/vagrant/.ssh/id_rsa.pub para visualizar a chave gerada. Copiar e colar
 
 git config --global credential.helper cache -> para não solicitar mais a senha (Funciona mesmo sem o ssh-keygen)
  
+ git branch -a -> para mostrar todos os branch´s remoto
+ git checkout -b novoBranch origin/novoBranch -> para criar um novo branch local, já espelhando no remoto
+
+ 
+
 
 
 
