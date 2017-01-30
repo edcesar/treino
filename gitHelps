@@ -26,6 +26,9 @@ Configurações iniciais
  git reset HEAD teste2.txt -> Para voltar um arquivo do stagio 2 para o stagio 1, ou seja, que foi adicionado, mas ainda não commitado
 
 
+ git reset HEAD~1 -> Volta um commit
+
+
 
 
 
