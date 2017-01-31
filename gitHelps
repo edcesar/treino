@@ -56,6 +56,9 @@ git tag -d 0.1.0  (removendo tag localmente)
 git push origin :refs/tags/0.1.0 (removendo tag no repositório remoto)
 
 
+git fetch -> Sincroniza com o repositorio remote, mas não faz o merge, nem inclui arquivos (util para depois dar um git status, e saber se existe alterações no repositorio)
+
+git show origin -> Mostra as alterações no repositorio que ainda não tem no local. (requer o git fetch antes)
 
 
 
